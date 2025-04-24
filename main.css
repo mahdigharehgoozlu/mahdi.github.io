@@ -1,0 +1,158 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(src/Ubuntu-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202124;
+    font-family: ubuntu;
+}
+
+.total {
+    width: 98%;
+    padding: 1%;
+}
+
+hr {
+    margin: 0 auto;
+    border-color: #808080;
+    height: 1px;
+    width: 90%;
+}
+
+i.fa {
+    color: #bb86fc;
+}
+
+.pb100{
+    width: 100%;
+}
+
+.pb80{
+    width: 80%;
+}
+
+.pb60{
+    width: 60%;
+}
+
+.pb50{
+    width: 50%;
+}
+
+#side-left {
+    background-color: #303134;
+    width: 25%;
+    margin: 0.5%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+#side-right {
+    width: 72%;
+    display: inline-block;
+    margin: 0.5%;
+    vertical-align: top;
+}
+
+#side-right section {
+    height: 250px;
+    background-color: #303134;
+    margin-bottom: 2%
+}
+
+#profil-box {
+    position: relative;
+}
+
+#profil-box #profil-img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+
+#profil-box #profil-name {
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    font-size: 22px;
+}
+
+#description-box {
+    padding: 15px;
+}
+
+#description-box ul {
+    list-style: none;
+}
+
+#description-box ul li {
+    margin-bottom: 15px;
+}
+
+#description-box ul li i.fa {
+    color: #bb86fc;
+    font-size: 18px;
+}
+
+#description-box ul li span {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.esaid-ithem {
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+
+.esaid-ithem{
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+
+.ithem-titl{
+    margin-left: 5px;
+}
+
+.skills-ithem{
+    margin-top: 15px;
+}
+
+.progress-bax{
+    background-color: #eee;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.progress-bax .progress-bar{
+    background-color: #bb86fc;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+footer {
+    height: 20px;
+    background-color: #bb86fc;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+}
+
+footer a{
+    color: #fff;
+}
